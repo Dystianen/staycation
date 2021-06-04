@@ -1,9 +1,10 @@
 import React from 'react'
-import Button from 'elements/Button'
-export default function LandingPage() {
+import Header from '../parts/Header'
+
+export default function LandingPage(props) {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Header {...props}></Header>
+        </>
     )
 }
