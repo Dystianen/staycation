@@ -12,7 +12,7 @@ export default function Header(props) {
         <nav className="navbar navbar-expand-lg navbar-light">
           <BrandIcon />
           <div className="collapse navbar-collapse">
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto" style={{fontWeight: "bold"}}>
               <li className={`nav-item${getNavLinkClass("/")}`}>
                 <Button className="nav-link active" type="link" href="/">
                   Home

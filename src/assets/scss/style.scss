@@ -19,6 +19,7 @@
 @import "images";
 @import "containers";
 @import "grid";
+@import "container-grid";
 @import "tables";
 @import "forms";
 @import "buttons";
@@ -66,6 +67,7 @@ header{
     border-bottom: 1px solid $gray-200;
     width: 100%;
     position: relative;
+    margin-bottom: 50px;
 
     .navbar{
         height: 80px;
@@ -81,9 +83,10 @@ header{
                 }
                 a{
                     &.navlink{
-                        color: $gray-900;
+                        color: grey;
                         padding-left: 1rem;
                         padding-right: 1rem;
+                        font-weight: 700;
                         &:hover{
                             text-decoration: underline;
                         }
@@ -92,4 +95,12 @@ header{
             }
         }
     }
+}
+
+section{
+    margin-bottom: 70px;
+}
+
+.card{
+    height: 100%;
 }
