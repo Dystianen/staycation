@@ -58,9 +58,9 @@
   font-weight: 500;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  color: $primary;
+  color: #3252df;
   &:hover {
-    color: $primary;
+    color: #3252df;
     text-decoration: none;
   }
 }
@@ -79,13 +79,13 @@ header {
         a.active {
           a.nav-link {
             a {
-              color: $primary;
+              color: #3252df;
             }
           }
         }
         a {
-          &.navlink {
-            color: grey;
+          &.nav-link {
+            color: #152c5b;
             padding-left: 1rem;
             padding-right: 1rem;
             &:hover {

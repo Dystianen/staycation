@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className=''>
       <div className='container'>
         <div className='row'>
-          <div className='col'>
+          <div className='col-4'>
             <IconText />
             <p className='brand-tagline'>We kaboom your beauty holiday instantly and memorable.</p>
           </div>
