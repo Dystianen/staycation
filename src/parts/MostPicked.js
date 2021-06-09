@@ -22,7 +22,7 @@ export default function MostPicked(props) {
                     <Button className='stretched-link d-block text-white' type='link' href={`/properties/${item._id}`}>
                       <h5>{item.name}</h5>
                     </Button>
-                    <span className='text-white'>
+                    <span className='text-white' style={{ fontWeight: 300 }}>
                       {item.city}, {item.country}
                     </span>
                   </div>

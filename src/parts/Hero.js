@@ -20,7 +20,7 @@ export default function Hero(props) {
     <section className='container pt-4'>
       <div className='row align-items-center'>
         <div className='col pr-5' style={{ width: 530 }}>
-          <h1 className='font-weight-bold line-height-1 mb-3'>
+          <h1 className='line-height-1 mb-3' style={{ fontWeight: 750, color: '#152C5B' }}>
             Forget Busy Work, <br />
             Start Next Vacation
           </h1>

@@ -6,7 +6,9 @@
  */
 
 // scss-docs-start import-stack
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 // Configuration
+@import 'colorVariables';
 @import 'functions';
 @import 'variables';
 @import 'mixins';
@@ -218,4 +220,45 @@ section {
   object-fit: contain;
   height: 100%;
   width: 100%;
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 365px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  border-top: 1px solid #e9ecef;
+  padding-top: 50px;
+
+  .brand-tagline {
+    color: #b0b0b0;
+    font-weight: 300;
+    margin-top: 8px;
+  }
+  .list-group-item {
+    padding: 1rem 0;
+    border: 0;
+    a,
+    span {
+      color: #b0b0b0;
+      font-weight: 300;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #727272;
+    }
+    span:hover {
+      color: #727272;
+    }
+  }
+  .copyright {
+    margin: 50px 0;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: #adb5bd;
+  }
 }
