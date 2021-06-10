@@ -66,7 +66,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className='row'>
-            <div className='col text-center copyright'>Copyright 2019 • All rights reserved • Staycation</div>
+            <div className='col text-center copyright'>Copyright 2021 • All rights reserved • Staycation</div>
           </div>
         </div>
       </div>
