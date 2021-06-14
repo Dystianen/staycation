@@ -1,0 +1,48 @@
+@import '../../../assets/scss/_colorVariables.scss';
+
+.input-number {
+  .input-group {
+    background-color: white;
+    .input-group-text {
+      border: 0;
+      cursor: pointer;
+      color: white;
+      padding: 0;
+      border-radius: 4px !important;
+      font-size: 24px;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      user-select: none;
+      &.minus {
+        background-color: #dc3545;
+      }
+      &.plus {
+        background-color: #20c997;
+      }
+    }
+
+    .input-form-control {
+      min-height: 45px;
+      border: 0;
+      border-radius: 0;
+      outline: 0;
+      box-shadow: none;
+      background-color: #f8f9fa;
+      padding: 0.575rem 1rem;
+      text-align: center;
+    }
+
+    .date-range-wrapper {
+      padding: 4px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(#000, 0.1);
+      position: absolute;
+      border-radius: 4px;
+      top: 45px;
+      z-index: 5;
+    }
+  }
+}
